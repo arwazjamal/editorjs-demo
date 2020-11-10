@@ -17,7 +17,7 @@
   "dependencies": {
     "@babel/core": "^7.12.3",
     "@editorjs/editorjs": "^2.19.0",
-    "editorjs-list": "^2.0.0",
+    "editorjs-list": "^2.1.0",
     "editorjs-table": "^1.4.1"
   },
   "devDependencies": {
