@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "rm -r dist && mkdir dist && webpack && cp src/index.html dist",
+    "build:prod": "rm -r dist && mkdir dist && webpack && cp src/index.html dist",
+    "build:dev": "webpack-dev-server",
     "start": "webpack-dev-server",
     "rename-list": "node -e \"require('fs').rename('dist/bundle.js', 'dist/list_bundle.js', function(err) { if (err) console.log(err); })\"",
     "rename-table": "node -e \"require('fs').rename('dist/bundle.js', 'dist/table_bundle.js', function(err) { if (err) console.log(err); })\"",
@@ -24,8 +25,8 @@
     "babel-core": "^6.26.3",
     "babel-loader": "^8.1.0",
     "babel-preset-env": "^1.7.0",
-    "webpack": "^4.44.2",
-    "webpack-cli": "^3.3.12",
-    "webpack-dev-server": "^3.10.3"
+    "webpack": "^5.4.0",
+    "webpack-cli": "~3.3.12",
+    "webpack-dev-server": "^3.11.0"
   }
 }
