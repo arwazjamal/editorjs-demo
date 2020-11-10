@@ -1,7 +1,7 @@
 import EditorJS from '@editorjs/editorjs';
 const Table = require('editorjs-table');
-const List = require('editorjs-list');
-export const editor = new EditorJS({
+// const List = require('editorjs-list');
+const editor = new EditorJS({
     autofocus: true,
     data: {
         version: '2.18.0',
@@ -9,11 +9,11 @@ export const editor = new EditorJS({
     placeholder: 'click add button to get tools',
     holder: 'editorjs',
     tools: {
-        list : {
-            class: List,
-            inlineToolbar: true,
-            shortcut: 'CMD+SHIFT+L'
-        },
+        // list : {
+        //     class: List,
+        //     inlineToolbar: true,
+        //     shortcut: 'CMD+SHIFT+L'
+        // },
         table: {
             class: Table,
             inlineToolbar: true,
@@ -27,3 +27,8 @@ export const editor = new EditorJS({
         blocks: []
     }
 })
+
+// export default editor;
+
+// let test = () => console.log(123);
+// test();
