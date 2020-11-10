@@ -1,0 +1,31 @@
+{
+  "name": "editorjs-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -r dist && mkdir dist && webpack && cp src/index.html dist",
+    "start": "webpack-dev-server --output-public-path=",
+    "rename-list": "node -e \"require('fs').rename('dist/bundle.js', 'dist/list_bundle.js', function(err) { if (err) console.log(err); })\"",
+    "rename-table": "node -e \"require('fs').rename('dist/bundle.js', 'dist/table_bundle.js', function(err) { if (err) console.log(err); })\"",
+    "build-list": "cp node_modules/editorjs-list/dist/bundle.js dist && npm run rename-list",
+    "build-table": "cp node_modules/editorjs-table/dist/bundle.js dist && npm run rename-table"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.12.3",
+    "@editorjs/editorjs": "^2.19.0",
+    "editorjs-list": "^2.0.0",
+    "editorjs-table": "^1.4.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.1.0",
+    "babel-preset-env": "^1.7.0",
+    "webpack": "^5.4.0",
+    "webpack-cli": "^4.2.0",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
