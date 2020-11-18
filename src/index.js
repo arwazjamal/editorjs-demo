@@ -16,6 +16,8 @@ const RawTool = require('@editorjs/raw');
 const Delimiter = require('@editorjs/delimiter');
 const CodeTool = require('@editorjs/code');
 const InlineCode = require('@editorjs/inline-code');
+const saveButton = document.getElementById('saveButton');
+
 const editor = new EditorJS({
     autofocus: true,
     data: {
@@ -89,7 +91,14 @@ const editor = new EditorJS({
               }
             },
         ]
+    },
+    onReady: function(){
+        saveButton.click();
     }
 })
-
+saveButton.addEventListener('click', function () {
+    editor.save().then((savedData) => {
+      cPreview.show(savedData, document.getElementById("output"));
+    });
+});
 export default editor;

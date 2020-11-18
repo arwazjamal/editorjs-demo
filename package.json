@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build:prod": "rm -r dist && mkdir dist && webpack && cp src/index.html dist",
+    "build:prod": "rm -r dist && mkdir dist && webpack && npm run copy-files",
+    "copy-files": "cp src/index.html dist && cp src/json-preview.js dist && cp src/demo.css dist",
     "build:dev": "webpack-dev-server",
     "start": "webpack-dev-server",
     "rename-list": "node -e \"require('fs').rename('dist/bundle.js', 'dist/list_bundle.js', function(err) { if (err) console.log(err); })\"",

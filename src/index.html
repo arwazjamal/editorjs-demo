@@ -4,9 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Editor Js Demo</title>
+    <style>
+
+        body, html {
+            margin: 0;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #editorjs {
+            width: 800px;
+            margin-top: 10px;
+        }
+
+    </style>
+    <link href="demo.css" rel="stylesheet">
+  <script src="json-preview.js"></script>
 </head>
 <body>
     <div id="editorjs"></div>
+    <div class="ce-example__button" id="saveButton">
+        Save
+      </div>
+      <div class="ce-example__output">
+        <pre class="ce-example__output-content" id="output"></pre>
+      </div>
     <script src="./app.bundle.js"></script>
 </body>
 </html>
