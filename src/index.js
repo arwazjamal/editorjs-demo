@@ -16,7 +16,10 @@ const RawTool = require('@editorjs/raw');
 const Delimiter = require('@editorjs/delimiter');
 const CodeTool = require('@editorjs/code');
 const InlineCode = require('@editorjs/inline-code');
+const FontFamily = require('editorjs-inline-font-family-tool');
+const FontSize = require('editorjs-inline-font-size-tool');
 const saveButton = document.getElementById('saveButton');
+
 
 const editor = new EditorJS({
     autofocus: true,
@@ -61,6 +64,8 @@ const editor = new EditorJS({
         raw: RawTool,
         delimiter: Delimiter,
         code: CodeTool,
+        fontSize: FontSize,
+        fontFamily: FontFamily,
         inlineCode: {
             class: InlineCode,
             shortcut: 'CMD+SHIFT+M',
