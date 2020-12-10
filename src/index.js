@@ -65,7 +65,12 @@ const editor = new EditorJS({
         delimiter: Delimiter,
         code: CodeTool,
         fontSize: FontSize,
-        fontFamily: FontFamily,
+        fontFamily: {
+            class: FontFamily,
+            config: {
+                fontFamilyList: ['Arial', 'Arial Black', 'Arial Narrow', 'Arial Rounded MT Bold', 'Lato']
+            }
+        },
         inlineCode: {
             class: InlineCode,
             shortcut: 'CMD+SHIFT+M',
