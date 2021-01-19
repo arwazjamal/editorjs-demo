@@ -2089,7 +2089,7 @@ editor@~1.0.0:
   resolved "https://registry.yarnpkg.com/editor/-/editor-1.0.0.tgz#60c7f87bd62bcc6a894fa8ccd6afb7823a24f742"
   integrity sha1-YMf4e9YrzGqJT6jM1q+3gjok90I=
 
-editorjs-inline-font-family-tool@^1.0.4:
+editorjs-inline-font-family-tool@1.0.4:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/editorjs-inline-font-family-tool/-/editorjs-inline-font-family-tool-1.0.4.tgz#3fb5f3c568c376080135422fdfede4b32cec3f95"
   integrity sha512-9fCbazdtr0EasyCUeS86FS8oyFiy8OlHPNdpXqoTmYa1BEVADtz0aUyUQ4WdghvfA+rOGGkB3V20j88UYdalcw==
@@ -2099,20 +2099,20 @@ editorjs-inline-font-size-tool@1.0.1:
   resolved "https://registry.yarnpkg.com/editorjs-inline-font-size-tool/-/editorjs-inline-font-size-tool-1.0.1.tgz#43c1eac14c1716927a8279d10cadc33e46ba9cf8"
   integrity sha512-ZuwRGaLrPBwPqW9KawMGjWuvyvPGO/tPUReWYBdyqAmFuOB5H5nw8TK1gAVIMFp7Q+vT0pQdscgHwnktj8pd5w==
 
-editorjs-list@2.1.2:
-  version "2.1.2"
-  resolved "https://registry.yarnpkg.com/editorjs-list/-/editorjs-list-2.1.2.tgz#01dc47d5196a80fed530bcb958461b13300c3010"
-  integrity sha512-a1VBIwgEmWwg4COlAdhBjiGg8iiWCWXzyl4fIRGOQsd8lHrGFRJgQqFSgLzixeuj02qbyYvPvt1Iw3Z0gQgU2w==
+editorjs-list@2.1.4:
+  version "2.1.4"
+  resolved "https://registry.yarnpkg.com/editorjs-list/-/editorjs-list-2.1.4.tgz#b539b384edde50d7e933c7d6425922c91af0e170"
+  integrity sha512-vbewMo0QLHOYWOPW+jBvCPXKamO1TOJbNc1zh51N6IIXpcqtMnQzOVD8519mj8dCip98C4DFYy2nJBfgMr3IRg==
 
-editorjs-simple-image-updated@1.3.5:
-  version "1.3.5"
-  resolved "https://registry.yarnpkg.com/editorjs-simple-image-updated/-/editorjs-simple-image-updated-1.3.5.tgz#1fcae825ccb57f496e4f61d3c105cf2d9e20bf7b"
-  integrity sha512-g2FV4r7p/R1m/ZGU/47paD3MQQUYXQP3mEdIZty9FqmPIKYcuZaIDTGL6vf0Ji4JrxGwQGQLr7ZjTfMwq/WXjA==
+editorjs-simple-image-updated@1.3.8:
+  version "1.3.8"
+  resolved "https://registry.yarnpkg.com/editorjs-simple-image-updated/-/editorjs-simple-image-updated-1.3.8.tgz#67aa4ecc5d129e994e8b334bcb41d0ca11841d39"
+  integrity sha512-66l22pHjirU8NIx8osbfZ94Sw0B8KNLYeFm7VeLdo2OhYyi8n1wdGY4uHodYZaqxWmCHJ0NC7nSY6UrzPXFtrg==
 
-editorjs-table@1.4.6:
-  version "1.4.6"
-  resolved "https://registry.yarnpkg.com/editorjs-table/-/editorjs-table-1.4.6.tgz#ac9c60568ea2aec67482461877776b7885b25e26"
-  integrity sha512-wuP/nEiJ5FzF5mlTZ9+W5qk3L8GG26hNI0KlTztfqouIJjrrpMViypU7IT1S/yWJLUxCrVrN8B3Bv8WWqcySIg==
+editorjs-table@1.4.7:
+  version "1.4.7"
+  resolved "https://registry.yarnpkg.com/editorjs-table/-/editorjs-table-1.4.7.tgz#69fdcba1d65bade1c36d79816ba6edd90f9f892f"
+  integrity sha512-BCc/Hl0TtRoFZb70n3+2xOKTkCg18SzdahSI3g95m9d4REQa7dY1Fmz6hDHvPvyyPtgEQCADLckwnbx9Vkm+7g==
 
 editorjs-updated@2.19.6:
   version "2.19.6"
